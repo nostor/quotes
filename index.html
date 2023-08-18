@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Quote</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <img class="buddha" src="buddha.svg" alt="buddha" />
+      <button class="btnGetQuote" type="button">Get your daily quote</button>
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p class="quotePlaceholder"></p>
+      </div>
+    </div>
+
+    <div id="myModalCookie" class="modalCookie">
+      <div class="modal-content-cookie">
+        <span class="close-cookie">&times;</span>
+        <p class="oneQuote">
+          By the heavens, only one quote per day is granted for free. Should you
+          want another quote please pray to the heavens.
+        </p>
+        <button class="btnDeleteCookie" type="button">
+          Pray to the heavens
+        </button>
+      </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
